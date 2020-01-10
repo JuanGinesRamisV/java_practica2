@@ -11,13 +11,8 @@ import java.util.Scanner;
  *
  * @author juang
  */
-public class Java_Primeros_ejercicios {
-
-    /**
-     * @param args the command line arguments
-     */
+public class ejercicio2 {
     public static void main(String[] args) {
-        // TODO code application logic here
         int numeros[]= new int[5];
         int i;
         Scanner scanner = new Scanner(System.in);
@@ -26,10 +21,10 @@ public class Java_Primeros_ejercicios {
             numeros[i]=scanner.nextInt();
         }
         System.out.println("has introducido los numeors en el siguiente orden");
-        for(i=0;i<numeros.length;i++){
-            System.out.print(numeros[i]+ "");
+        System.out.println("hola");
+        for(i=4;i>=0;i=i-1){
+            System.out.println(numeros[i]);
         }
-        
     }
     
 }
